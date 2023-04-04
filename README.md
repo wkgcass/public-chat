@@ -1,5 +1,9 @@
 # Demo of chat-in-issue
 
+[中文文档](https://github.com/wkgcass/demo-of-chat-in-issue/blob/main/README_ZH.md)
+
+This documentation is translated by ChatGPT from the Chinese version doc.
+
 Fork this repository and do some simple configuration, and you can use ChatGPT in Github issue!
 
 ## Prerequisites
