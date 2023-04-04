@@ -10,7 +10,7 @@ jobs:
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
-      - uses: wkgcass/chat-in-issue@0.0.2
+      - uses: wkgcass/chat-in-issue@0.0.3
         with:
           openai-key: ${{ secrets.OPENAI_KEY }}
           user-whitelist: ${{ vars.CHAT_IN_ISSUE_USER_WHITELIST }}
