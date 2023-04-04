@@ -13,4 +13,4 @@ jobs:
       - uses: wkgcass/chat-in-issue@0.0.2
         with:
           openai-key: ${{ secrets.OPENAI_KEY }}
-          user-whitelist: ${{ secrets.CHAT_IN_ISSUE_USER_WHITELIST }}
+          user-whitelist: ${{ vars.CHAT_IN_ISSUE_USER_WHITELIST }}
