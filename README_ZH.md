@@ -76,9 +76,14 @@ fork该仓库，再做一些简单的配置，你就可以在Github issue中使�
 
 回到刚才的issue中，查看ChatGPT给你响应的消息。
 
+## 第四步：关闭通知
+
+用issue时，每次有新的comment都会有邮件通知，比较烦人。这里可以直接把整个仓库的推送关掉。  
+点仓库页面右上角那个`Watch`的小按钮，下拉菜单中选择`Ignore`即可。
+
 ---
 
-## 第四步：高级配置
+## 第五步：高级配置
 
 如果对话内容比较长，有一些配置可能会影响对话上下文。
 
@@ -103,6 +108,6 @@ fork该仓库，再做一些简单的配置，你就可以在Github issue中使�
 
 修改完毕后，点击右上角的`Commit changes...`，在弹出的对话框中点击`Commit changes`即可。
 
-## 第五步：高级交互
+## 第六步：高级交互
 
 请阅读[文档](https://github.com/marketplace/actions/chat-in-issue)中关于`prefix`配置项的内容，那里有一些特殊的prompt用法。
