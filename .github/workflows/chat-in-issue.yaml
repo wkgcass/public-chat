@@ -15,4 +15,4 @@ jobs:
           openai-key: ${{ secrets.OPENAI_KEY }}
           user-whitelist: ${{ vars.CHAT_IN_ISSUE_USER_WHITELIST }}
           prompt-limit: "8000"
-          prompt-from-beginning-max: "3000"
+          prompt-from-beginning-max: "500"
