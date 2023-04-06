@@ -1,5 +1,5 @@
 name: chat-in-issue
-run-name: '[chat-in-issue][${{ github.workflow }}] - ${{ github.event.issue.title }}'
+run-name: '[${{ github.workflow }}] ${{ github.event.issue.title }}'
 on:
   issues:
     types: ['opened']
@@ -14,3 +14,5 @@ jobs:
         with:
           openai-key: ${{ secrets.OPENAI_KEY }}
           user-whitelist: ${{ vars.CHAT_IN_ISSUE_USER_WHITELIST }}
+          prompt-limit: "8000"
+          prompt-from-beginning-max: "3000"
